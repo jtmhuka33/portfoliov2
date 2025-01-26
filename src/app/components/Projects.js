@@ -12,7 +12,6 @@ const projects = [
     description: 'Description for Project Two...',
     url: 'https://github.com/yourusername/project-two',
   },
-  // Add more projects as needed
 ];
 
 function Projects() {

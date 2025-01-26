@@ -11,13 +11,12 @@ export default function Home() {
     <Container maxWidth="md" sx={{ py: 5 }}>
       <Box sx={{ textAlign: 'center', mb: 5 }}>
         <Typography variant="h2" gutterBottom>
-          My Portfolio
+          Tadiwanashe John Mhuka
         </Typography>
         <Typography variant="subtitle1">
-          Welcome to my personal software engineer portfolio.
+          I'm on a mission to create software that's stable, elegant and effortlessly effective
         </Typography>
       </Box>
-
       <Introduction />
       <Career />
       <Skills />
