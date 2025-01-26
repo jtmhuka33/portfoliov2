@@ -1,4 +1,4 @@
-// components/Career.js
+"use client";
 import { Box, Typography, Card, CardContent } from '@mui/material';
 
 const careerData = [
@@ -14,7 +14,6 @@ const careerData = [
     duration: '2018 - 2020',
     description: 'Implemented UI/UX solutions using React and Redux...',
   },
-  // Add more as needed
 ];
 
 function Career() {

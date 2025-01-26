@@ -1,30 +1,20 @@
-import { Container, Box, Typography } from '@mui/material';
+"use client";
+import { ThemeProvider } from '@mui/material/styles'
+import CssBaseline from '@mui/material/CssBaseline'
+import darkTheme from './theme'
+import ThemeRegistry from './ThemeRegistry'
 
-import Introduction from './components/Introduction';
-import Career from './components/Career';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-
-export default function Home() {
+export default function RootLayout({ children }) {
   return (
-  <html lang="en">
-    <body>
-    <Container maxWidth="md" sx={{ py: 5 }}>
-      <Box sx={{ textAlign: 'center', mb: 5 }}>
-        <Typography variant="h2" gutterBottom>
-          My Portfolio
-        </Typography>
-        <Typography variant="subtitle1">
-          Welcome to my personal software engineer portfolio.
-        </Typography>
-      </Box>
-
-      <Introduction />
-      <Career />
-      <Skills />
-      <Projects />
-    </Container>
-    </body>
-  </html>
+    <html lang="en">
+      <body>
+        <ThemeRegistry>
+          <ThemeProvider theme={darkTheme}>
+            <CssBaseline />
+            {children}
+          </ThemeProvider>
+        </ThemeRegistry>
+      </body>
+    </html>
   );
 }
