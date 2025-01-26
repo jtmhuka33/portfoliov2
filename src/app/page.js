@@ -1,9 +1,8 @@
 "use client";
 
-import { Container, Box, Typography } from '@mui/material';
+import { Container, Box, Typography, Divider } from '@mui/material';
 import Introduction from './components/Introduction';
 import Career from './components/Career';
-import Skills from './components/Skills';
 import Projects from './components/Projects';
 
 export default function Home() {
@@ -18,8 +17,8 @@ export default function Home() {
         </Typography>
       </Box>
       <Introduction />
+      <Divider/>
       <Career />
-      <Skills />
       <Projects />
     </Container>
   );

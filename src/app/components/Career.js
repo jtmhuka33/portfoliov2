@@ -18,7 +18,7 @@ const careerData = [
 
 function Career() {
   return (
-    <Box component="section" sx={{ mb: 8 }}>
+    <Box component="section" sx={{ mb: 8, mt: 8, }}>
       <Typography variant="h4" gutterBottom>
         Career
       </Typography>

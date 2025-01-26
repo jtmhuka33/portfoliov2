@@ -1,6 +1,6 @@
 "use client";
-import { Avatar, Box, Typography } from '@mui/material';
-import MyImage from '../Images/MyImage.png';
+import { Avatar, Box, Divider, Typography } from '@mui/material';
+import MyImage from '../Images/MyImage.webp';
 
 function Introduction() {
   return (
@@ -16,8 +16,8 @@ function Introduction() {
     >
       <Avatar 
         sx={{
-          width: { sm: 200, xs: 300}, 
-          height: { sm: 200, xs: 300}, 
+          width: { sm: 175, xs: 300}, 
+          height: { sm: 175, xs: 300}, 
           border: '1px grey solid',
           mb: {xs: 4, sm: 0}
         }} 
