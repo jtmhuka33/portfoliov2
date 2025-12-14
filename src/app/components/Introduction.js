@@ -63,8 +63,8 @@ function Introduction() {
         variants={childVariants}
       >
         Fueled by a childhood fascination with software development,
-        I'm a web development enthusiast currently studying Interactive Media at the University of Augsburg.
-        My passion for building games and websites led me to learn JavaScript, HTML, React, and CSS.
+        I studied Interactive Media at the University of Applied Sciences Augsburg.
+        My passion for building games and websites led me to learn JavaScript, HTML, React, and CSS and others.
         With experience in remote work and a knack for tackling diverse tasks while maintaining balance,
         I'm eager to contribute my skills to your team.
       </MotionTypography>

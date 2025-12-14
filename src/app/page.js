@@ -12,9 +12,6 @@ export default function Home() {
                 <Typography variant="h2" gutterBottom>
                     Tadiwanashe John Mhuka
                 </Typography>
-                <Typography variant="subtitle1">
-                    I'm on a mission to create software that's stable, elegant and effortlessly effective
-                </Typography>
             </Box>
             <Introduction/>
             <Divider/>
